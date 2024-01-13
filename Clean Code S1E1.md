@@ -37,7 +37,7 @@ _Некоторые снимали баллы "за несоответствие
 
 _В одном списке 8 пунктов, во втором 9 (+ `The appearance of the application has not been changed.`) Сопоставить и сделать одинаковыми_
 
-10. **Check the modal verbs throughout the [description](https://github.com/rolling-scopes-school/tasks/blob/master/stage1/modules/clean-code/clean-code-s1e1.md)and Cross-check form and Cross-check form (`should`, `can` => `must`)**
+10. **Check the modal verbs throughout the [description](https://github.com/rolling-scopes-school/tasks/blob/master/stage1/modules/clean-code/clean-code-s1e1.md) and Cross-check form and Cross-check form (`should`, `can` => `must`)**
 
 _Стоит ли заменить глаголы на `must` вместо `can`? (см. п. 1) Обязательно ли применять штрафы? Если нет, то что считать некачественной проверкой? Если да, то стоит заменить на `must`?_
 
@@ -75,7 +75,7 @@ _Стоит ли уточнить, что если используется но
 
 19. **Strikethrough - is it functionality? What will happen if it's not fixed? Penalty? Is the main idea of the task to fix or not break the functionality?**
 
-_Нужно ли снижать оценку за нарушенную функциональность приложения, если нет фикса перечеркивания выполненных дел? Что считать сохранением функциональности? Фикс? Или не сломали больше чем было? Если нужно пофиксить, то пункт с расстановкой `;` может стоить полных баллов? Если не обязательно, то выглядит, как не полностью рабочее приложение._
+_Нужно ли снижать оценку за нарушенную функциональность приложения, если нет фикса перечеркивания выполненных дел? Что считать сохранением функциональности? Фикс? Или не сломали больше чем было? Если нужно пофиксить, то пункт с расстановкой `;` может стоить полных баллов? Если не обязательно, то выглядит, как не полностью рабочее приложение?_
 
 ## Penalties!
 
@@ -86,13 +86,15 @@ _Сделать каждый штраф одинаковой стоимости?
 
 For example:
 
-Each penalty - 15 points
-or
-First penalty - 10 points
-Second penalty - 15 points
-The rest - 20 points
+- Each penalty - 15 points
 
-This year's statistics:
+or
+
+- First penalty - 10 points
+- Second penalty - 15 points
+- The rest - 20 points
+
+**This year's statistics:**
 
 _Статистика этого года выглядит завышенной, возможно как раз потому что многие пожалели ставить -45._
 _Не уверена есть ли это, но какая-то статистика от RS AI по некачественным проверкам (в частности завышение) была бы кстати._
