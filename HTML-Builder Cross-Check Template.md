@@ -131,4 +131,5 @@
   `06-build-page/test-files/images/squirrel-2.jpg` -> `06-build-page/assets/img/squirrel-2.jpg`
 
   `06-build-page/test-files/styles/about.css` -> `06-build-page/styles/about.css`
+
   Don't forget to specify the new template tag (`{{about}}`) in the `template.html` file. Then, repeat steps 3-7.
