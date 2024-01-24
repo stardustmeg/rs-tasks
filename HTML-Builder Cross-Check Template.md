@@ -132,4 +132,4 @@
 
   `06-build-page/test-files/styles/about.css` -> `06-build-page/styles/about.css`
 
-  Don't forget to specify the new template tag (`{{about}}`) in the `template.html` file. Then, repeat steps 3-7.
+  Don't forget to specify the new template tag, for example `{{about}}`, in the `template.html` file. Then, repeat steps 3-7.
