@@ -1,10 +1,10 @@
-<h1 style="text-align: center; color: ">How to... Husky</h1>
+<h1 style="text-align: center; color: ">How to... Husky 🐶</h1>
 
 <p align="center">
   <img src="https://media1.tenor.com/m/RrVvn488K8QAAAAd/prancing-happy-dog.gif" />
 </p>
 
-#### This is pretty much the most basic guide to taming these mischivous Husky, but hopefully it'll give you a general overview on how you can use them. Believe me, they can brighten your day and do so much more! Husky is awesome! And together with other tools can take care of a good bulk of routine for you.
+#### This is pretty much the most basic guide to taming these mischievous Husky, but hopefully it'll give you a general overview on how you can use them. Believe me, they can brighten your day and do so much more! Husky is awesome! And together with other tools can take care of a good bulk of routine for you.
 
 _You can always find out more in their [official documentation](https://typicode.github.io/husky/)._
 
@@ -31,9 +31,9 @@ Congrats! You're on the way to get your own Husky!
 
 ### ✨ Step 2:
 
-The next step is a bit tricky since we're working with a school's repository and have separate folders for various projects (you can find some information about that in the [official documentation](https://typicode.github.io/husky/how-to.html#project-not-in-git-root-directory) or just keep reading this 😉)
+The next step is a bit tricky since we're working with a school's repository and have separate folders for various projects (you can find some information about that in the [official documentation](https://typicode.github.io/husky/how-to.html#project-not-in-git-root-directory) or just keep reading 😉).
 
-run
+Run
 
 ```js
 npx husky init
@@ -59,7 +59,7 @@ You're one step closer to your prize!
 
 ### ✨ Step 4:
 
-Now is the time to run some console commands again! Just run this one:
+Now it's time to run some console commands again! Just run this one:
 
 ```js
 npm run prepare
@@ -78,8 +78,9 @@ We're actually getting to the most interesting part! You need to decide what you
 
 That's exactly what I tell it to do:
 
-```json
+```js
 cd my-test-repo
+
 npm run format
 ```
 
@@ -105,7 +106,7 @@ git commit -m 'chore: add Husky to the project'
 
 ![alt text](image-6.png)
 
-Perfect! Everything failed and it didn't let us commit the changes as expected! It's time to fix it.
+Perfect! Everything failed! It didn't let us commit the changes as expected. It's time to fix it.
 
 ### ✨ Step 8:
 
@@ -117,7 +118,7 @@ git commit -m 'chore: add Husky to the project'
 
 ![alt text](image-7.png)
 
-🌟 Success! The changes are commited!
+🌟 Success! The changes are committed!
 
 Congrats on getting your first Husky! Hopefully you'll want to get more of them!
 
