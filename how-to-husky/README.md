@@ -25,7 +25,7 @@ npm i -D husky
 
 Notice that it needs to be installed as a devDependency (check out your `package.json` to make sure it's installed properly).
 
-![alt text](image.png)
+![alt text](img/image.png)
 
 Congrats! You're on the way to get your own Husky!
 
@@ -41,7 +41,7 @@ npx husky init
 
 in your terminal. You'll see new `.husky` folder appear in your project's directory and a script file where your Husky will live.
 
-![alt text](image-8.png)
+![alt text](img/image-8.png)
 
 You're getting closer!
 
@@ -53,7 +53,7 @@ Go to your `package.json` file and replace the created `"prepare": "husky"` scri
 "prepare": "cd .. && husky my-test-repo/.husky"
 ```
 
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 
 You're one step closer to your prize!
 
@@ -66,13 +66,13 @@ npm run prepare
 ```
 Notice that a `_` folder appeared. This one actually shouldn't interest you at all (seriously, no trespassing, don't even touch it 😁).
 
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 
 ### ✨ Step 5:
 
 You'll create files for your hooks in `.husky` and since we already have a `pre-commit` here let's work with that.
 
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 
 We're actually getting to the most interesting part! You need to decide what you want your Husky to do for you! Let's say that mine is going to check file formatting for me using Prettier and not let me commit anything unless I fix it.
 
@@ -86,7 +86,7 @@ npm run format
 
 An important thing to notice it that with my first line I tell my Husky not to wander around and to go straight to my project's folder (❗remember to replace it with your actual folder's name).
 
-![alt text](image-5.png)
+![alt text](img/image-5.png)
 
 ### ✨ Step 6:
 
@@ -104,7 +104,7 @@ That's pretty exciting, isn't it? Can you feel your heart pounding? Great! Now r
 git commit -m 'chore: add Husky to the project'
 ```
 
-![alt text](image-6.png)
+![alt text](img/image-6.png)
 
 Perfect! Everything failed! It didn't let us commit the changes as expected. It's time to fix it.
 
@@ -116,7 +116,7 @@ I've fixed formatting in the mentioned files and run the command once again to c
 git commit -m 'chore: add Husky to the project'
 ```
 
-![alt text](image-7.png)
+![alt text](img/image-7.png)
 
 🌟 Success! The changes are committed!
 
